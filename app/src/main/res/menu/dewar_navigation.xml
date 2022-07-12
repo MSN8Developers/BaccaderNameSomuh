@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/shareId"
+       android:icon="@drawable/ic_baseline_share_24"
+        android:title="shear" />
+
+    <item
+        android:id="@+id/ratingIa"
+        android:title="ছেলেদের নাম"
+        android:icon="@drawable/ic_baseline_feedback_24"/>
+
+</menu>
