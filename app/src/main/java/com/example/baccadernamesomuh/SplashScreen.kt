@@ -32,7 +32,7 @@ class SplashScreen : AppCompatActivity() {
 
         lifecycleScope.launch {
             while (true) {
-                delay(4000)
+                delay(3000)
 
                 var progressBarStatus = 100
 
