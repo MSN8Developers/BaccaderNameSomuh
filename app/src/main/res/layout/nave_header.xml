@@ -2,13 +2,26 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@color/pink300">
+    android:background="@color/pink300"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/about"
+        android:layout_marginTop="30dp"/>
 
     <TextView
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="nave header"/>
+        android:layout_height="wrap_content"
+        android:text="Msn8 developerTeem"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/naviBlu"/>
 
 </LinearLayout>

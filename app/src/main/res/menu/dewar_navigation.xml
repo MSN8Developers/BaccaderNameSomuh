@@ -6,9 +6,4 @@
        android:icon="@drawable/ic_baseline_share_24"
         android:title="shear" />
 
-    <item
-        android:id="@+id/ratingIa"
-        android:title="ছেলেদের নাম"
-        android:icon="@drawable/ic_baseline_feedback_24"/>
-
 </menu>

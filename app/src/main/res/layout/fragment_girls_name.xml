@@ -1,13 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GirlsNameFragment">
+    tools:context=".GirlsNameFragment"
+    android:orientation="vertical">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="hello" />
+        android:layout_height="match_parent">
 
-</FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/islamic_nam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/naviBlu"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/meyader_name"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/dijital_nam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/naviBlu"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"/>
+
+             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/dizital_name"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                 android:textColor="@color/black"
+                 android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/i_nam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/naviBlu"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ei_name"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

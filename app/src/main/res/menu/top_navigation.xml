@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item
-    android:id="@+id/girlsNameId"
-    android:title="মেয়াদের নাম"/>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-    android:id="@+id/boysNameId"
-    android:title="ছেলেদের নাম"/>
+        android:id="@+id/shareId"
+        android:title="শেয়ার করুন"
+        android:icon="@drawable/ic_baseline_share_24" />
 
+    <item
+        android:id="@+id/feedbackId"
+        android:title="মতামত দিন"
+        android:icon="@drawable/ic_baseline_feedback_24"/>
 </menu>

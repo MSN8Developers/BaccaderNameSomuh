@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BoysNameFragment"
@@ -19,19 +20,42 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:text="@string/sahabider_name"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/naviBlu"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sahabider_nam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:text="@string/o_name"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:textStyle="bold"
                 android:textColor="@color/naviBlu"
-                android:layout_marginBottom="10dp"/>
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/boys_o_name"
                 android:paddingLeft="10dp"
-                android:paddingRight="10dp"/>
+                android:paddingRight="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -41,26 +65,29 @@
                 android:paddingRight="10dp"
                 android:textStyle="bold"
                 android:textColor="@color/naviBlu"
-                android:layout_marginBottom="10dp"/>
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/a_boys_name"
                 android:paddingLeft="10dp"
-                android:paddingRight="10dp"/>
+                android:paddingRight="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/i_name"
+                android:text="@string/a_next_name"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:textStyle="bold"
-                android:textColor="@color/naviBlu"
-                android:layout_marginBottom="10dp"/>
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
 
     </ScrollView>
+
 </LinearLayout>
